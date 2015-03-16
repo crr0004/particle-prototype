@@ -1,0 +1,728 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"poin",
+				"pointTouched"
+			],
+			[
+				"dem",
+				"dimensions"
+			],
+			[
+				"dr",
+				"drawSquare"
+			],
+			[
+				"mouse",
+				"mousePos"
+			],
+			[
+				"draw",
+				"drawBezier"
+			],
+			[
+				"sq",
+				"squareDem"
+			],
+			[
+				"p",
+				"printf	printf …"
+			],
+			[
+				"setCa",
+				"setCallbackDoUpdate"
+			],
+			[
+				"m",
+				"mPosition"
+			],
+			[
+				"oxy",
+				"oxygine"
+			],
+			[
+				"spr",
+				"spriteScale"
+			],
+			[
+				"par",
+				"particle"
+			],
+			[
+				"res",
+				"resources"
+			],
+			[
+				"Res",
+				"resources"
+			],
+			[
+				"ox",
+				"oxygine"
+			],
+			[
+				"inc",
+				"include	Creates an include guard"
+			],
+			[
+				"entry",
+				"entry_point"
+			],
+			[
+				"end",
+				"endfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "CMakeLists.txt",
+			"settings":
+			{
+				"buffer_size": 1023,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/entry_point.cpp",
+			"settings":
+			{
+				"buffer_size": 3115,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "javascript_tools/index.html",
+			"settings":
+			{
+				"buffer_size": 2438,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Particle_Prototype.cpp",
+			"settings":
+			{
+				"buffer_size": 1442,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/chris/dev/source/oxygine-framework/examples/Demo/src/example.cpp",
+			"settings":
+			{
+				"buffer_size": 4834,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/headers/Particle.h",
+			"settings":
+			{
+				"buffer_size": 592,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Particle.cpp",
+			"settings":
+			{
+				"buffer_size": 683,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/chris/dev/source/oxygine-framework/oxygine/src/UpdateState.h",
+			"settings":
+			{
+				"buffer_size": 192,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/chris/dev/source/oxygine-framework/oxygine/src/core/oxygine.h",
+			"settings":
+			{
+				"buffer_size": 2505,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/chris/dev/source/oxygine-framework/oxygine/src/Actor.h",
+			"settings":
+			{
+				"buffer_size": 15441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/chris/dev/source/oxygine-framework/oxygine/src/Stage.h",
+			"settings":
+			{
+				"buffer_size": 1745,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 222.0,
+		"selected_items":
+		[
+			[
+				"ctags",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"sublime.language()",
+			"sublime.platform()",
+			"cls",
+			"clear",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/chris/dev/projects/particle_prototype/cmake",
+		"/home/chris/dev/projects/particle_prototype/cmake/build",
+		"/home/chris/dev/projects/particle_prototype/data",
+		"/home/chris/dev/projects/particle_prototype/javascript_tools",
+		"/home/chris/dev/projects/particle_prototype/src",
+		"/home/chris/dev/projects/particle_prototype/src/headers"
+	],
+	"file_history":
+	[
+		"/home/chris/dev/source/oxygine-framework/oxygine/src/core/oxygine.h",
+		"/home/chris/dev/source/oxygine-framework/oxygine/src/Actor.cpp",
+		"/home/chris/dev/source/oxygine-framework/oxygine/src/UpdateState.h",
+		"/home/chris/dev/source/oxygine-framework/examples/Demo/src/TestTweens.h",
+		"/home/chris/dev/source/oxygine-framework/examples/Demo/src/test.h",
+		"/home/chris/dev/source/oxygine-framework/examples/Demo/src/TestDrag.h",
+		"/home/chris/dev/source/oxygine-framework/oxygine/src/math/vector2.h",
+		"/home/chris/dev/source/oxygine-framework/oxygine/src/res/Resources.cpp",
+		"/home/chris/dev/source/oxygine-framework/oxygine/src/res/Resources.h",
+		"/home/chris/dev/source/oxygine-framework/oxygine/src/res/Resource.h",
+		"/home/chris/dev/projects/particle_prototype/data/xmls/res.xml",
+		"/home/chris/dev/source/oxygine-framework/examples/Demo/data/xmls/res.xml",
+		"/home/chris/.config/sublime-text-3/Packages/CTags/Default.sublime-keymap",
+		"/home/chris/dev/projects/particle_prototype/data/res.xml",
+		"/home/chris/.config/sublime-text-3/Packages/User/CTags.sublime-settings",
+		"/home/chris/.config/sublime-text-3/Packages/User/include guard.sublime-snippet",
+		"/home/chris/dev/source/oxygine-framework/oxygine/src/Sprite.cpp",
+		"/home/chris/dev/source/oxygine-framework/oxygine/src/Actor.h",
+		"/home/chris/dev/source/oxygine-framework/oxygine/src/Stage.h",
+		"/home/chris/dev/source/oxygine-framework/oxygine/src/Stage.cpp",
+		"/home/chris/dev/source/oxygine-framework/examples/Demo/proj.cmake/CMakeLists.txt",
+		"/home/chris/dev/projects/particle_prototype/src/Particle_Prototype.h",
+		"/home/chris/dev/source/oxygine-framework/examples/Demo/src/example.cpp",
+		"/home/chris/dev/source/oxygine-framework/examples/Demo/src/test.cpp",
+		"/home/chris/dev/projects/particle_prototype/src/Particle_Prototype.cpp",
+		"/home/chris/.config/sublime-text-3/Packages/CTags/CTags.sublime-settings",
+		"/home/chris/dev/source/oxygine-framework/oxygine/src/DebugActor.cpp",
+		"/home/chris/dev/projects/particle_prototype/src/example.h",
+		"/home/chris/dev/projects/particle_prototype/.tags",
+		"/home/chris/dev/projects/particle_prototype/src/entry_point.cpp",
+		"/home/chris/dev/projects/particle_prototype/CTags.sublime-settings",
+		"/home/chris/dev/projects/particle_prototype/cmake/build/oxygine-framework/CMakeFiles/oxygine-framework.dir/cmake_clean_target.cmake",
+		"/home/chris/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/chris/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/chris/dev/source/oxygine-framework/.tags",
+		"/home/chris/dev/source/oxygine-framework/examples/Demo/src/example.h",
+		"/home/chris/dev/source/oxygine-framework/examples/Demo/src/entry_point.cpp",
+		"/home/chris/dev/source/oxygine-framework/examples/Demo/src/TestText.h",
+		"/home/chris/dev/projects/particle_prototype/cmake/CMakeLists.txt",
+		"/home/chris/dev/want-to-see/_config.yml",
+		"/home/chris/dev/want-to-see/_includes/header.html",
+		"/home/chris/dev/want-to-see/_includes/footer.html",
+		"/home/chris/dev/want-to-see/index.html",
+		"/home/chris/dev/want-to-see/_layouts/squres.html",
+		"/home/chris/dev/want-to-see/_sass/_layout.scss",
+		"/home/chris/dev/want-to-see/_layouts/default.html",
+		"/home/chris/dev/want-to-see/_sass/_base.scss",
+		"/home/chris/dev/want-to-see/_sass/_syntax-highlighting.scss",
+		"/home/chris/want-to-see"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"update",
+			"getCallbackDoUpdate",
+			"Update",
+			"UpdateCall",
+			"UpdateCallback",
+			"setCall",
+			"setCa"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "CMakeLists.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								895,
+								895
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CMakeEditor/CMakeEditor.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/entry_point.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1271,
+								1271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "javascript_tools/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2289,
+								2289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/Particle_Prototype.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1327,
+								1327
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/chris/dev/source/oxygine-framework/examples/Demo/src/example.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4834,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4692,
+								4692
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2859.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/headers/Particle.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								545,
+								545
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/Particle.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								339,
+								339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/chris/dev/source/oxygine-framework/oxygine/src/UpdateState.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/chris/dev/source/oxygine-framework/oxygine/src/core/oxygine.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								384,
+								378
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 11.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/chris/dev/source/oxygine-framework/oxygine/src/Actor.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10055,
+								10055
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3163.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/home/chris/dev/source/oxygine-framework/oxygine/src/Stage.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "particle_prototype.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

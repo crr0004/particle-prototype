@@ -1,0 +1,36 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+PARTICLE_H	src/Particle.cpp	2;"	d	file:
+Particle	src/Particle.cpp	/^Particle::Particle(){$/;"	f	class:Particle	signature:()
+Particle::Particle	src/Particle.cpp	/^Particle::Particle(){$/;"	f	class:Particle	signature:()
+Particle::getSprite	src/Particle.cpp	/^oxygine::Sprite* Particle::getSprite(){$/;"	f	class:Particle	signature:()
+Particle::loadSprite	src/Particle.cpp	/^void Particle::loadSprite(const oxygine::Resources &res){$/;"	f	class:Particle	signature:(const oxygine::Resources &res)
+Particle::~Particle	src/Particle.cpp	/^Particle::~Particle(){$/;"	f	class:Particle	signature:()
+getSprite	src/Particle.cpp	/^oxygine::Sprite* Particle::getSprite(){$/;"	f	class:Particle	signature:()
+loadSprite	src/Particle.cpp	/^void Particle::loadSprite(const oxygine::Resources &res){$/;"	f	class:Particle	signature:(const oxygine::Resources &res)
+~Particle	src/Particle.cpp	/^Particle::~Particle(){$/;"	f	class:Particle	signature:()
+PARTICLE_H	src/Particle_Prototype.cpp	3;"	d	file:
+destroy	src/Particle_Prototype.cpp	/^void destroy()$/;"	f	signature:()
+init	src/Particle_Prototype.cpp	/^void init()$/;"	f	signature:()
+preinit	src/Particle_Prototype.cpp	/^void preinit()$/;"	f	signature:()
+resources	src/Particle_Prototype.cpp	/^Resources resources;$/;"	v
+resourcesUI	src/Particle_Prototype.cpp	/^Resources resourcesUI;$/;"	v
+update	src/Particle_Prototype.cpp	/^void update()$/;"	f	signature:()
+main	src/entry_point.cpp	/^	int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	src/entry_point.cpp	/^int main(int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+mainloop	src/entry_point.cpp	/^int mainloop()$/;"	f	signature:()
+one	src/entry_point.cpp	/^void one(){ mainloop(); }$/;"	f	signature:()
+run	src/entry_point.cpp	/^void run()$/;"	f	signature:()
+Particle	src/headers/Particle.h	/^class Particle {$/;"	c
+Particle::mPosition	src/headers/Particle.h	/^	oxygine::VectorT2<float> *mPosition;$/;"	m	class:Particle	access:protected
+Particle::mSprite	src/headers/Particle.h	/^	oxygine::Sprite *mSprite;$/;"	m	class:Particle	access:protected
+RESOURCES_H	src/headers/Particle.h	6;"	d
+SPRITE_H	src/headers/Particle.h	2;"	d
+STAGE_H	src/headers/Particle.h	10;"	d
+VECTOR2_H	src/headers/Particle.h	14;"	d
+mPosition	src/headers/Particle.h	/^	oxygine::VectorT2<float> *mPosition;$/;"	m	class:Particle	access:protected
+mSprite	src/headers/Particle.h	/^	oxygine::Sprite *mSprite;$/;"	m	class:Particle	access:protected

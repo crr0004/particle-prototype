@@ -1,0 +1,4 @@
+cmake
+*.o
+*.exe
+data-ram

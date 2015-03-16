@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="960" height="640" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<button id="button" style="float: left;">Refresh text</button>
+
+<script>
+
+
+
+function makeStruct(names) {
+  var names = names.split(' ');
+  var count = names.length;
+  function constructor() {
+    for (var i = 0; i < count; i++) {
+      this[names[i]] = arguments[i];
+    }
+  }
+  return constructor;
+}
+
+var vector2 = makeStruct("x y");
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+var bezierPoints = [new vector2(20, 20), new vector2(20, 100), new vector2(200, 100), new vector2(200, 20)]
+var clicked = false;
+var activePoint = 0;
+
+
+function getMousePos(canvas, evt) {
+    var rect = c.getBoundingClientRect();
+    return {
+        x: evt.clientX - rect.left,
+        y: evt.clientY - rect.top
+    };
+}
+
+c.addEventListener('click', function(){
+	if(clicked){
+		clicked = false;
+	}else{
+		clicked = true;
+	}
+}, false);
+
+c.addEventListener('mousemove', function(evt) {
+		if(clicked){
+	        var mousePos = getMousePos(c, evt);
+	        pointTouched(mousePos.x, mousePos.y, bezierPoints);
+	        drawBezier(bezierPoints);
+	        drawPointNumber(activePoint);
+    	}
+}, false);
+
+function drawPointNumber(i){
+	ctx.strokeText("" + i, bezierPoints[i].x - 10, bezierPoints[i].y - 10)
+}
+
+function drawSquare(center, dimensions){
+	ctx.fillStyle = "#FF0000";
+	ctx.fillRect(center.x - (dimensions.x/2),center.y - (dimensions.y/2),dimensions.x,dimensions.y);
+}
+
+function drawBezier(points){
+	ctx.clearRect(0, 0, 960, 640)
+
+	ctx.font = "16px Arial";
+
+
+	
+	for(var i = 0; i < points.length; i++){
+		drawSquare(points[i], new vector2(10, 10));
+	}
+
+	ctx.beginPath();
+	ctx.moveTo(points[0].x, points[0].y);
+	//ctx.bezierCurveTo(points[1].x, points[1].y, points[2].x, points[2].y, points[3].x, points[3].y);
+	ctx.quadraticCurveTo(points[1].x, points[1].y, points[2].x, points[2].y);
+	ctx.stroke();
+}
+
+function pointTouched(x, y, points){
+	var pixelVariance = 10;
+	for(var i = 0; i < points.length; i++){
+		var dx = x + - points[i].x;
+		var dy = y - points[i].y;
+		if( dx * dx + dy * dy <= pixelVariance * pixelVariance){
+			points[i].x = x;
+			points[i].y = y;
+			activePoint = i;
+			break;
+			
+		}
+	}
+}
+
+document.getElementById("button").addEventListener('click', function(){
+	ctx.font = "16px Arial";
+	for(var i = 0; i < bezierPoints.length; i++){
+		ctx.strokeText("Point: " + i + " " + bezierPoints[i].x + ", " + bezierPoints[i].y,800,16 * (i+1));
+	}
+}, false);
+
+/*ctx.beginPath();
+ctx.moveTo(20, 20);
+ctx.bezierCurveTo(20, 100, 200, 100, 200, 20);
+ctx.stroke();*/
+drawBezier(bezierPoints);
+
+</script> 
+
+</body>
